@@ -1,0 +1,61 @@
+.main {
+  padding: 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px;
+}
+
+
+.button {
+  padding: 10px;
+  align-self: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(123, 123, 250);
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+  max-width: 300px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.button:hover {
+  background-color: rgb(80, 80, 154);
+}
+
+.button:active {
+  background-color: rgb(37, 37, 102);
+}
+
+.card {
+  padding: 10px;
+  background-color: beige;
+  border-radius: 20px;
+}
+
+.exitBtn {
+  padding: 5px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.exitBtn:hover {
+  background-color: rgb(176, 176, 176);
+}
